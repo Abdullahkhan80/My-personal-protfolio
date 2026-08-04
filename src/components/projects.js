@@ -1,71 +1,71 @@
 export const projects = [
   {
     id: 1,
-    title: "AI Automation Dashboard",
-    description: "Enterprise-grade AI automation system with workflow tracking, customer insights, automated actions, and real-time operational visibility. Features data visualization, integrations, and practical automation flows.",
+    title: "Interactive Dashboard",
+    description: "Modern dashboard application with data visualization, real-time updates, and intuitive user interface. Built with React and various charting libraries for comprehensive data insights.",
     image: "/projects/image_original",
     link: ""
   },
   {
     id: 2,
-    title: "AI Workflow Automation Platform",
-    description: "Full-featured automation platform with data capture, AI-assisted routing, follow-up sequences, conversion tracking, and analytics for business workflows.",
+    title: "Task Management Platform",
+    description: "Feature-rich task management application with drag-and-drop functionality, priority tracking, and team collaboration features. Streamlines workflow organization and productivity.",
     image: "/projects/image_original (1)",
     link: ""
   },
   {
     id: 3,
-    title: "Business Automation Suite",
-    description: "Comprehensive automation suite with contact management, process flows, task automation, team collaboration, and detailed reporting for faster operations.",
+    title: "Project Collaboration Suite",
+    description: "Comprehensive collaboration platform with team management, file sharing, real-time notifications, and project tracking capabilities for improved team coordination.",
     image: "/projects/image_original (2)",
     link: ""
   },
   {
     id: 4,
     title: "PIXORA Image Generator",
-    description: "AI-powered SaaS application that transforms images into descriptive text, making visual content accessible and searchable. Perfect for content creators and businesses.",
+    description: "AI-powered image-to-text application that generates descriptive text from images. Features modern UI with smooth animations and optimized performance for creative professionals.",
     image: "/projects/project7.png",
     link: "https://pixora-sable.vercel.app"
   },
   {
     id: 9,
-    title: "Royal Exclusive Limo (REL) Automation",
-    description: "REL (Royal Exclusive Limo) automation system — Full-stack automated rental workflow with Stripe payments, webhook ingestion, and role-based management for Admins, Dispatchers, and Drivers. Deployed secure payment integrations, real-time webhook handling, automated email pipelines for invoice dispatch and payment alerts, plus real-time availability and route monitoring.",
+    title: "Limo Booking System",
+    description: "Full-stack transportation booking platform with Stripe payment integration, real-time booking management, automated email notifications, and role-based dashboard for admins, dispatchers, and drivers.",
     image: "/projects/Gemini_Generated_Image_zg0f61zg0f61zg0f.png",
     link: ""
   },
   {
     id: 10,
-    title: "Anka OS — AI-Powered Project Management Platform",
-    description: "Anka OS — Full-stack AI-powered project management OS with Kanban boards, sprint planning, and GPT-4 coding agent. Built with Next.js 16, Express 5, Prisma, and PostgreSQL. Features AI code review, GitHub integration, real-time web terminal, role-based access control, S3 file uploads, and automated sprint planning with velocity tracking.",
+    title: "Anka OS — Project Management Platform",
+    description: "Advanced project management platform with Kanban boards, sprint planning, and AI-assisted features. Built with Next.js, Express, Prisma, and PostgreSQL. Includes GitHub integration, real-time terminal, and S3 file management.",
     image: "/projects/Gemini_Generated_Image_zg0f61zg0f61zg0f.png",
     link: ""
   },
   {
     id: 5,
     title: "White Space Project Management",
-    description: "A powerful project management platform designed to help teams collaborate, plan, and manage daily tasks efficiently.",
+    description: "A powerful project management platform designed to help teams collaborate, plan, and manage daily tasks efficiently with a clean, minimalist interface.",
     image: "/projects/project1.png",
     link: "https://white-space-psi.vercel.app/"
   },
   {
     id: 6,
     title: "Gourmet Haven Restaurant",
-    description: "Full-stack restaurant application with interactive menu, online ordering system, and secure backend with MongoDB database.",
+    description: "Full-stack restaurant application featuring an interactive menu, online ordering system, real-time order tracking, and secure backend with MongoDB database integration.",
     image: "/projects/project6.png",
     link: "https://gourmet-haven-git-main-abdullahs-projects-ec45321a.vercel.app/"
   },
   {
     id: 7,
     title: "Real Estate Platform",
-    description: "Modern real estate website with property listings, virtual tours, and expert guidance for buyers, sellers, and renters.",
+    description: "Modern real estate website featuring property listings, advanced search filters, virtual tours, and comprehensive property management for buyers, sellers, and renters.",
     image: "/projects/project5.png",
     link: ""
   },
   {
     id: 8,
-    title: "AI Consulting Website",
-    description: "Professional AI consulting services platform helping businesses automate processes and unlock data-driven growth.",
+    title: "Technology Solutions Website",
+    description: "Professional consulting platform showcasing technology services, portfolio work, and client success stories with modern design and smooth animations.",
     image: "/projects/project2.png",
     link: ""
   },
@@ -78,7 +78,7 @@ export const achievements = [
 
   {
     id: 2,
-    title: " Certificate of lead",
+    title: "Certificate of Leadership",
     description: "Awarded by Google in affiliation with Fluxxion for demonstrating exceptional leadership skills and successfully guiding a team through challenging project milestones.",
     image: "/acheivements/certificate5.jpg",
     link: "/Acheivements"

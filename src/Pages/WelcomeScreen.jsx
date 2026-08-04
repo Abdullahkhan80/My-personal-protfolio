@@ -110,7 +110,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 className="mb-6 flex justify-center"
                 variants={childVariants}
               >
-                <span className="eyebrow">AI Automation Studio</span>
+                <span className="eyebrow">Developer Portfolio</span>
               </motion.div>
 
               {/* Welcome Text */}
@@ -120,10 +120,10 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
               >
                 <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl md:text-7xl">
                   <span className="block bg-gradient-to-r from-white via-[#f7e7ce] to-purple-200 bg-clip-text text-transparent">
-                    Automate. Scale.
+                    Create. Innovate.
                   </span>
                   <span className="mt-3 block text-luxe-gradient">
-                    Grow Effortlessly
+                    Build Amazing Things
                   </span>
                 </h1>
               </motion.div>

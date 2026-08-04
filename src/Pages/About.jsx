@@ -5,13 +5,13 @@ import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
 
 const beatsData = [
-  { s: -0.05, e: 0.08, subtitle: "AI Automation", title: <>Automating Leads,<br />Closing Deals</>, isH1: true },
-  { s: 0.09, e: 0.25, title: "Instant Follow-Up", desc: "Capture, qualify, and respond to incoming leads in under 60 seconds, 24/7." },
-  { s: 0.26, e: 0.41, subtitle: "Smarter Workflows", title: "Connected CRMs" },
-  { s: 0.42, e: 0.58, title: "Autonomous Agents", desc: "AI agents handling lead follow-ups, appointment scheduling, and nurturing." },
-  { s: 0.59, e: 0.75, subtitle: "Scale Operations", title: "Done on Autopilot" },
-  { s: 0.76, e: 0.91, title: "Zero Busywork" },
-  { s: 0.92, e: 1.05, subtitle: "AI For Businesses", title: "Abdullah Systems", desc: "Supercharge your business operations. Explore my portfolio below.", isLuxeTitle: true }
+  { s: -0.05, e: 0.08, subtitle: "Full-Stack Developer", title: <>Building Modern<br />Web Experiences</>, isH1: true },
+  { s: 0.09, e: 0.25, title: "Creative Solutions", desc: "Turning complex problems into elegant, user-friendly applications." },
+  { s: 0.26, e: 0.41, subtitle: "Modern Stack", title: "React & Next.js" },
+  { s: 0.42, e: 0.58, title: "Smooth Animations", desc: "Creating delightful user experiences with Framer Motion and GSAP." },
+  { s: 0.59, e: 0.75, subtitle: "Full Integration", title: "Backend & APIs" },
+  { s: 0.76, e: 0.91, title: "Clean Code" },
+  { s: 0.92, e: 1.05, subtitle: "Developer Portfolio", title: "Abdullah Khan", desc: "Explore my projects and see what I can create for you.", isLuxeTitle: true }
 ];
 
 function beatOpacity(p, s, e) {

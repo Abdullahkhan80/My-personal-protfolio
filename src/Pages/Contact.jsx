@@ -81,13 +81,13 @@ const ContactPage = () => {
   return (
     <>
       <div className="mx-auto mt-20 flex max-w-3xl flex-col items-center px-[5%] text-center md:px-[7%] lg:px-[10%]">
-        <span className="eyebrow mb-5" data-aos="fade-down" data-aos-duration="900">Let's Talk</span>
+        <span className="eyebrow mb-5" data-aos="fade-down" data-aos-duration="900">Let's Connect</span>
         <h2
           data-aos="fade-down"
           data-aos-duration="1000"
           className="font-display text-3xl font-bold tracking-tight text-luxe-gradient md:text-5xl"
         >
-          Get Started Today
+          Get In Touch
         </h2>
         <div className="mt-5 h-px w-24 bg-gradient-to-r from-transparent via-[#e6c078]/60 to-transparent" />
         <p
@@ -95,7 +95,7 @@ const ContactPage = () => {
           data-aos-duration="1100"
           className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-400 md:text-base"
         >
-          Ready to automate your workflows? Send me a message and let's build your AI system.
+          Have a project in mind or just want to chat? Send me a message and let's create something amazing together.
         </p>
       </div>
 

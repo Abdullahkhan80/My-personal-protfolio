@@ -3,26 +3,26 @@ import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles, UserCheck, ArrowL
 import { motion } from "framer-motion"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Packages from "../components/Packages"
 import { Link } from 'react-router-dom'
+import TechStack from "../components/TechStack"
 
 const services = [
   {
-    icon: LayoutDashboard,
-    title: "AI Automation Systems",
-    description: "Tailored AI automation systems built to match your business processes and workflows.",
+    icon: Code,
+    title: "Full-Stack Development",
+    description: "Building modern, scalable web applications using React, Next.js, Node.js, and MongoDB.",
     color: "from-blue-500 to-cyan-500"
   },
   {
-    icon: TrendingUp,
-    title: "Workflow Automation",
-    description: "Automated workflows that connect tools, reduce manual work, and keep operations moving in real time.",
+    icon: LayoutDashboard,
+    title: "UI/UX Design",
+    description: "Creating beautiful, responsive interfaces with smooth animations using Framer Motion and GSAP.",
     color: "from-purple-500 to-pink-500"
   },
   {
-    icon: BarChart3,
-    title: "Analytics & Reporting",
-    description: "Real-time analytics and custom reports for data-driven business decisions.",
+    icon: TrendingUp,
+    title: "API Development",
+    description: "Designing and implementing RESTful APIs with secure authentication and database integration.",
     color: "from-indigo-500 to-purple-500"
   }
 ];
@@ -37,15 +37,15 @@ const ServicesSection = memo(() => (
         viewport={{ once: true }}
         className="mx-auto mb-12 max-w-3xl text-center"
       >
-        <span className="eyebrow mb-5">What I Deliver</span>
+        <span className="eyebrow mb-5">What I Do</span>
         <h2 className="font-display text-3xl md:text-5xl font-bold mb-4 tracking-tight">
           <span className="text-luxe-gradient">
-            AI Automation Services
+            My Skills & Expertise
           </span>
         </h2>
         <div className="mx-auto mb-5 h-px w-24 bg-gradient-to-r from-transparent via-[#e6c078]/60 to-transparent" />
         <p className="mx-auto max-w-2xl text-base leading-7 text-gray-400 md:text-lg">
-          Custom AI automation systems built for professional businesses, teams, and enterprises
+          Specialized in building modern web applications with cutting-edge technologies
         </p>
       </motion.div>
 
@@ -90,7 +90,7 @@ const Header = memo(() => (
     >
       <span className="eyebrow">
         <Sparkles className="w-3.5 h-3.5 text-[#e6c078]" />
-        Building AI Automation Systems for Professional Businesses
+        Full-Stack Developer & Creative Problem Solver
       </span>
     </div>
   </div>
@@ -285,9 +285,9 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             I build AI automation systems for professional businesses,
-             <br />Specializing in lead follow-up, CRM workflows, and business automation
-             <br />Helping teams and businesses capture more leads, respond faster, and close more deals on autopilot
+             A passionate developer dedicated to crafting beautiful and functional web experiences.
+             <br />Specializing in React, Next.js, and modern web technologies
+             <br />Turning ideas into reality through clean code and elegant design
             </p>
 
             <div className="flex w-full flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
@@ -315,18 +315,9 @@ const AboutPage = () => {
           <ProfileImage />
         </div>
 
-        {/* <a href="#Portofolio">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 cursor-pointer">
-            {statsData.map((stat) => (
-              <StatCard key={stat.label} {...stat} />
-            ))}
-          </div>
-        </a> */}
-        <div className="mt-20">
-        <Packages/>
-        </div>
-
         <ServicesSection />
+        
+        <TechStack />
 
       </div>
 
